@@ -29,7 +29,7 @@ public class BaseClass {
 	public static WebDriver BrowserLaunch(String browser) {
 		if (browser.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", 
-					"C:\\Users\\LINGARAJ\\eclipse-workspace\\SeleniumProject\\driver\\chromedriver.exe");
+					"C:\\Users\\LINGARAJ\\eclipse-workspace\\Cucumber\\driver\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}else if (browser.equalsIgnoreCase("firefox")) {
 			System.setProperty("webdriver.gecko.driver", 
